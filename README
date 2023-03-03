@@ -1,0 +1,9 @@
+# Simple python camera motion detection module
+
+A simple opencv-based python script that runs over your camera stream and
+detect if any motion happens and records it locally.
+
+camera config can be provided as arguments or stored in 
+`/etc/.pycam.conf` (check the sample config provided)
+
+* run using `make run`

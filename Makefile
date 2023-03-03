@@ -4,5 +4,5 @@ setup:	requirements.txt
 clean:
 	rm -rf __pycache__
 
-run:
+run: setup
 	python3 main.py
